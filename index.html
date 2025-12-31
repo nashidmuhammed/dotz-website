@@ -11,16 +11,43 @@
         content="ERP, SaaS, inventory management, sales, purchases, financial reporting, business software, Dotz">
     <meta name="author" content="Dotz Team">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.dotz.space">
+    <meta name="theme-color" content="#14b8a6">
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Dotz: Track. Manage. Grow - SaaS ERP Solution">
     <meta property="og:description"
         content="Streamline your business with Dotz, a SaaS ERP for inventory, sales, purchases, and financials. Get started today!">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.dotz.com">
+    <meta property="og:url" content="https://www.dotz.space">
     <meta property="og:image" content="https://via.placeholder.com/1200x600?text=Dotz+ERP">
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dotz: Track. Manage. Grow">
     <meta name="twitter:description"
         content="A powerful SaaS ERP to manage your business efficiently. Start free today!">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x600?text=Dotz+ERP">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Dotz",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -28,9 +55,9 @@
             theme: {
                 extend: {
                     colors: {
-                        primary: '#D2B48C', // Beige
-                        secondary: '#4B4B4B', // Dark Grey
-                        accent: '#8B7D6B', // Muted Beige for hover effects
+                        primary: '#14b8a6', // Teal
+                        secondary: '#334155', // Slate-700
+                        accent: '#0f766e', // Teal-700 for hover
                     },
                     animation: {
                         'fade-in': 'fadeIn 1s ease-in-out',
@@ -47,8 +74,8 @@
                             '100%': { transform: 'translateY(0)', opacity: '1' },
                         },
                         pulseGlow: {
-                            '0%, 100%': { boxShadow: '0 0 0 0 rgba(210, 180, 140, 0.7)' },
-                            '50%': { boxShadow: '0 0 0 10px rgba(210, 180, 140, 0)' },
+                            '0%, 100%': { boxShadow: '0 0 0 0 rgba(20, 184, 166, 0.7)' },
+                            '50%': { boxShadow: '0 0 0 10px rgba(20, 184, 166, 0)' },
                         },
                     },
                 },
@@ -61,8 +88,8 @@
         }
 
         body {
-            background-color: rgba(255, 255, 245, 0.281);
-            /* Light Beige Background */
+            background-color: #f8fafc;
+            /* Slate-50 */
         }
 
         .nav-container {
@@ -75,13 +102,15 @@
         .nav-link {
             font-family: 'Comic Neue', cursive;
             font-weight: 700;
-            color: #4B4B4B !important;
+            color: #334155 !important;
+            /* secondary */
             margin: 0 10px;
             transition: color 0.3s ease;
         }
 
         .nav-link:hover {
-            color: #D2B48C !important;
+            color: #14b8a6 !important;
+            /* primary */
         }
 
         .site-header {
@@ -90,7 +119,7 @@
     </style>
 </head>
 
-<body class="bg-beige-100 font-sans antialiased">
+<body class="bg-slate-50 font-sans antialiased">
     <script>
         // Check for access token on page load
         window.addEventListener('DOMContentLoaded', () => {
@@ -185,7 +214,7 @@
     </section>
 
     <!-- Screenshots Section -->
-    <section id="screenshots" class="bg-beige-50 py-20">
+    <section id="screenshots" class="bg-white py-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-center text-secondary mb-12 animate-slide-up">Explore Dotz in Action</h2>
             <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">See how Dotz simplifies your business with our
@@ -244,7 +273,7 @@
     </section>
 
     <!-- Roadmap Section -->
-    <section id="roadmap" class="bg-beige-50 py-20">
+    <section id="roadmap" class="bg-white py-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-center text-secondary mb-12 animate-slide-up">Future Roadmap</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -328,32 +357,32 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="#features" class="hover:text-beige-200 transition">Features</a></li>
-                        <li><a href="#screenshots" class="hover:text-beige-200 transition">Screenshots</a></li>
-                        <li><a href="#roadmap" class="hover:text-beige-200 transition">Roadmap</a></li>
-                        <li><a href="#pricing" class="hover:text-beige-200 transition">Pricing</a></li>
+                        <li><a href="#features" class="hover:text-primary transition">Features</a></li>
+                        <li><a href="#screenshots" class="hover:text-primary transition">Screenshots</a></li>
+                        <li><a href="#roadmap" class="hover:text-primary transition">Roadmap</a></li>
+                        <li><a href="#pricing" class="hover:text-primary transition">Pricing</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Support</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-beige-200 transition">Contact Us</a></li>
-                        <li><a href="#" class="hover:text-beige-200 transition">FAQ</a></li>
-                        <li><a href="#" class="hover:text-beige-200 transition">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-beige-200 transition">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-primary transition">FAQ</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
                     <div class="flex space-x-4">
-                        <a href="#" class="hover:text-beige-200 transition">Twitter</a>
-                        <a href="#" class="hover:text-beige-200 transition">LinkedIn</a>
-                        <a href="#" class="hover:text-beige-200 transition">Facebook</a>
+                        <a href="#" class="hover:text-primary transition">Twitter</a>
+                        <a href="#" class="hover:text-primary transition">LinkedIn</a>
+                        <a href="#" class="hover:text-primary transition">Facebook</a>
                     </div>
                 </div>
             </div>
             <div class="text-center mt-8 border-t border-gray-600 pt-4">
-                &copy; 2025 Dotz. All rights reserved.
+                &copy; 2026 Dotz. All rights reserved.
             </div>
         </div>
     </footer>
