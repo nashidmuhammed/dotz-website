@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dotz: Track. Manage. Grow - SaaS ERP Solution</title>
-    <meta name="description" content="Dotz is a SaaS-based ERP web application to streamline inventory, sales, purchases, and financials for businesses. Try our free plan or explore advanced features.">
-    <meta name="keywords" content="ERP, SaaS, inventory management, sales, purchases, financial reporting, business software, Dotz">
+    <meta name="description"
+        content="Dotz is a SaaS-based ERP web application to streamline inventory, sales, purchases, and financials for businesses. Try our free plan or explore advanced features.">
+    <meta name="keywords"
+        content="ERP, SaaS, inventory management, sales, purchases, financial reporting, business software, Dotz">
     <meta name="author" content="Dotz Team">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Dotz: Track. Manage. Grow - SaaS ERP Solution">
-    <meta property="og:description" content="Streamline your business with Dotz, a SaaS ERP for inventory, sales, purchases, and financials. Get started today!">
+    <meta property="og:description"
+        content="Streamline your business with Dotz, a SaaS ERP for inventory, sales, purchases, and financials. Get started today!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.dotz.com">
     <meta property="og:image" content="https://via.placeholder.com/1200x600?text=Dotz+ERP">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dotz: Track. Manage. Grow">
-    <meta name="twitter:description" content="A powerful SaaS ERP to manage your business efficiently. Start free today!">
+    <meta name="twitter:description"
+        content="A powerful SaaS ERP to manage your business efficiently. Start free today!">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -54,15 +59,19 @@
         * {
             scroll-behavior: smooth;
         }
+
         body {
-            background-color: rgba(255, 255, 245, 0.281); /* Light Beige Background */
+            background-color: rgba(255, 255, 245, 0.281);
+            /* Light Beige Background */
         }
+
         .nav-container {
             background: #fff;
             border-radius: 50px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             padding: 8px 25px;
         }
+
         .nav-link {
             font-family: 'Comic Neue', cursive;
             font-weight: 700;
@@ -70,14 +79,17 @@
             margin: 0 10px;
             transition: color 0.3s ease;
         }
+
         .nav-link:hover {
             color: #D2B48C !important;
         }
+
         .site-header {
             background: transparent;
         }
     </style>
 </head>
+
 <body class="bg-beige-100 font-sans antialiased">
     <script>
         // Check for access token on page load
@@ -95,8 +107,13 @@
             <nav class="nav-container">
                 <div class="flex justify-between items-center">
                     <div class="text-2xl font-bold text-primary sm:hidden">Dotz</div>
-                    <button class="sm:hidden text-secondary focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    <button class="sm:hidden text-secondary focus:outline-none"
+                        onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
                     </button>
                 </div>
                 <ul id="mobile-menu" class="hidden sm:flex sm:space-x-4 flex-col sm:flex-row items-center mt-4 sm:mt-0">
@@ -106,10 +123,14 @@
                     <li class="nav-item"><a href="#roadmap" class="nav-link">Roadmap</a></li>
                     <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
                     <li class="nav-item">
-                        <button onclick="window.location.href='https://app.dotz.space'" class="bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition animate-slide-up">Get Started</button>
+                        <button onclick="window.location.href='https://app.dotz.space'"
+                            class="bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition animate-slide-up">Get
+                            Started</button>
                     </li>
                     <li class="nav-item">
-                        <button onclick="window.location.href='https://app.dotz.space'" class="bg-secondary text-white px-4 py-2 rounded-md hover:bg-gray-600 transition animate-slide-up">Sign In</button>
+                        <button onclick="window.location.href='https://app.dotz.space'"
+                            class="bg-secondary text-white px-4 py-2 rounded-md hover:bg-gray-600 transition animate-slide-up">Sign
+                            In</button>
                     </li>
                 </ul>
             </nav>
@@ -120,8 +141,11 @@
     <section class="bg-gradient-to-r from-primary to-accent text-white pt-24 sm:pt-32 pb-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in">
             <h1 class="text-3xl sm:text-5xl font-bold mb-4">Dotz: Track. Manage. Grow</h1>
-            <p class="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">A SaaS-based ERP to streamline inventory, sales, purchases, and financials for businesses of all sizes.</p>
-            <button onclick="window.location.href='https://app.dotz.space'" class="bg-white text-primary px-6 py-3 rounded-md font-semibold hover:bg-gray-100 transition animate-pulse-glow">Get Started Now</button>
+            <p class="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">A SaaS-based ERP to streamline inventory, sales,
+                purchases, and financials for businesses of all sizes.</p>
+            <button onclick="window.location.href='https://app.dotz.space'"
+                class="bg-white text-primary px-6 py-3 rounded-md font-semibold hover:bg-gray-100 transition animate-pulse-glow">Get
+                Started Now</button>
         </div>
     </section>
 
@@ -136,7 +160,8 @@
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up delay-100">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Inventory Management</h3>
-                    <p>Track products with multi-units, brands, categories, tax settings, and real-time stock levels.</p>
+                    <p>Track products with multi-units, brands, categories, tax settings, and real-time stock levels.
+                    </p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up delay-200">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Sales & Purchases</h3>
@@ -144,7 +169,8 @@
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Financial Management</h3>
-                    <p>Manage accounts, receipts, payments, and generate profit & loss, balance sheets, and tax reports.</p>
+                    <p>Manage accounts, receipts, payments, and generate profit & loss, balance sheets, and tax reports.
+                    </p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up delay-100">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Dashboard & Analytics</h3>
@@ -162,18 +188,22 @@
     <section id="screenshots" class="bg-beige-50 py-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-center text-secondary mb-12 animate-slide-up">Explore Dotz in Action</h2>
-            <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">See how Dotz simplifies your business with our user-friendly interface.</p>
+            <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">See how Dotz simplifies your business with our
+                user-friendly interface.</p>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="relative">
-                    <img src="https://via.placeholder.com/400x300?text=Dashboard" alt="Interactive Dashboard Screenshot" class="rounded-lg shadow-md hover:scale-105 transition animate-fade-in w-full">
-                    <p class="text-center mt-2 text-gray-600">Interactive Dashboard</p>
+                    <img src="images/scr-home.png" alt="Interactive Home Screenshot"
+                        class="rounded-lg shadow-md hover:scale-105 transition animate-fade-in w-full">
+                    <p class="text-center mt-2 text-gray-600">Interactive Home</p>
                 </div>
                 <div class="relative">
-                    <img src="https://via.placeholder.com/400x300?text=Inventory" alt="Inventory Management Screenshot" class="rounded-lg shadow-md hover:scale-105 transition animate-fade-in delay-100 w-full">
-                    <p class="text-center mt-2 text-gray-600">Inventory Management</p>
+                    <img src="images/scr-create-sale.png" alt="Create sale Screenshot"
+                        class="rounded-lg shadow-md hover:scale-105 transition animate-fade-in delay-100 w-full">
+                    <p class="text-center mt-2 text-gray-600">Easy and advanced UI</p>
                 </div>
                 <div class="relative">
-                    <img src="https://via.placeholder.com/400x300?text=Reports" alt="Detailed Reports Screenshot" class="rounded-lg shadow-md hover:scale-105 transition animate-fade-in delay-200 w-full">
+                    <img src="images/scr-report.png" alt="Detailed Reports Screenshot"
+                        class="rounded-lg shadow-md hover:scale-105 transition animate-fade-in delay-200 w-full">
                     <p class="text-center mt-2 text-gray-600">Detailed Reports</p>
                 </div>
             </div>
@@ -220,7 +250,8 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow-md animate-slide-up">
                     <h3 class="text-xl font-semibold text-secondary mb-4">AI Implementation</h3>
-                    <p>AI-powered summaries, predictive analytics, fraud detection, and a chat assistant for smarter decisions.</p>
+                    <p>AI-powered summaries, predictive analytics, fraud detection, and a chat assistant for smarter
+                        decisions.</p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md animate-slide-up delay-100">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Automation Tools</h3>
@@ -228,7 +259,8 @@
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md animate-slide-up delay-200">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Expanded Modules</h3>
-                    <p>HRM for payroll and attendance, POS for retail, project management, and e-commerce integrations.</p>
+                    <p>HRM for payroll and attendance, POS for retail, project management, and e-commerce integrations.
+                    </p>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md animate-slide-up">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Advanced ERP Tools</h3>
@@ -253,23 +285,32 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Free Plan</h3>
-                    <p>Basic features for startups, limited users, and reports (product management, simple sales/purchases).</p>
-                    <button onclick="window.location.href='https://app.dotz.space'" class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Start Free</button>
+                    <p>Basic features for startups, limited users, and reports (product management, simple
+                        sales/purchases).</p>
+                    <button onclick="window.location.href='https://app.dotz.space'"
+                        class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Start
+                        Free</button>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up delay-100">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Basic Plan</h3>
                     <p>Multi-user roles, full sales/purchase modules, standard reports, and basic customizations.</p>
-                    <button onclick="window.location.href='https://app.dotz.space'" class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Get Basic</button>
+                    <button onclick="window.location.href='https://app.dotz.space'"
+                        class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Get
+                        Basic</button>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up delay-200">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Pro Plan</h3>
                     <p>Advanced reporting, tax compliance tools, custom invoice templates, and more.</p>
-                    <button onclick="window.location.href='https://app.dotz.space'" class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Get Pro</button>
+                    <button onclick="window.location.href='https://app.dotz.space'"
+                        class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Get
+                        Pro</button>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition animate-slide-up delay-300">
                     <h3 class="text-xl font-semibold text-secondary mb-4">Enterprise Plan</h3>
                     <p>Unlimited users, priority support, custom domain hosting, and custom development options.</p>
-                    <button onclick="window.location.href='https://app.dotz.space'" class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Contact Us</button>
+                    <button onclick="window.location.href='https://app.dotz.space'"
+                        class="mt-4 bg-primary text-white px-4 py-2 rounded-md hover:bg-accent transition">Contact
+                        Us</button>
                 </div>
             </div>
         </div>
@@ -281,7 +322,8 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div>
                     <h4 class="text-lg font-semibold mb-4">About Dotz</h4>
-                    <p>Dotz is a SaaS ERP in beta, designed to track, manage, and grow your business. Stable release coming soon!</p>
+                    <p>Dotz is a SaaS ERP in beta, designed to track, manage, and grow your business. Stable release
+                        coming soon!</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Links</h4>
@@ -316,4 +358,5 @@
         </div>
     </footer>
 </body>
+
 </html>
